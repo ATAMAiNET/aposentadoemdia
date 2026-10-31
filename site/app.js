@@ -58,7 +58,7 @@ function render() {
       const submit = stage.querySelector('.button'); submit.disabled = true; submit.textContent = 'Enviando…';
       controller = new AbortController(); const timeout = setTimeout(() => controller.abort(), 15000);
       try {
-        const response = await fetch(endpoint, {method: 'POST', headers: {'Content-Type': 'application/json'}, credentials: 'omit', referrerPolicy: 'no-referrer', body: JSON.stringify({...payload, requestId}), signal: controller.signal});
+        const response = await fetch(endpoint, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=UTF-8'}, credentials: 'omit', referrerPolicy: 'no-referrer', body: JSON.stringify({...payload, requestId}), signal: controller.signal});
         if (!response.ok) throw new Error('Não foi possível confirmar o recebimento.');
         const result = await response.json(); if (result.ok !== true || result.requestId !== requestId) throw new Error('Não foi possível confirmar o recebimento.');
         clear(); step = 5; render();

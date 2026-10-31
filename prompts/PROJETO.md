@@ -2,7 +2,7 @@
 
 ## Natureza
 
-Este repositório privado é o MANUAL do serviço, com processos, checklists, modelos vazios e política de privacidade. Não é cadastro, dossiê nem base de clientes.
+Este repositório público contém o manual do serviço e a página de prospecção. Reúne processos, checklists, modelos vazios e política de privacidade. Não é cadastro, dossiê nem base de clientes. Respostas e contatos dos interessados ficam fora do Git, em armazenamento privado.
 
 ## Regras obrigatórias para qualquer IA ou colaborador
 
