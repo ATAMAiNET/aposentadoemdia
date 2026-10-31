@@ -1,6 +1,6 @@
 # Validação cadastral no SouGov
 
-Status: minuta operacional para revisão humana. Fontes consultadas em 30/10/2026.
+Minuta operacional. Fontes consultadas em 30/10/2026.
 
 > Documentos preenchidos ficam fora do Git. Caminhos de tela podem mudar; confirmar no canal oficial antes de agir.
 
@@ -38,5 +38,3 @@ Guardar exclusivamente no dossiê externo protegido. Data no formato AAAA-MM-DD,
 
 - [Validação cadastral — aposentados](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/sou-gov.br/validacao-cadastral-aposentado/legislacao-periodicidade-obrigatoriedade-quem-deve-e-onde-realizar-a-validacao-cadastral)
 - [Consulta do comprovante de validação](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/sou-gov.br/validacao-cadastral-aposentado/perguntas-frequentes-sobre-a-b)
-
-**HIPÓTESE:** condições não cobertas pelas fontes permanecem a confirmar no canal competente. Não preencher lacunas com experiências de outro órgão ou exercício.

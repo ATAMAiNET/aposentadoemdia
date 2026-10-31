@@ -1,6 +1,6 @@
 # Certidão de regularidade fiscal
 
-Status: minuta operacional para revisão humana. Fontes consultadas em 30/10/2026.
+Minuta operacional. Fontes consultadas em 30/10/2026.
 
 > Documentos preenchidos ficam fora do Git. Caminhos de tela podem mudar; confirmar no canal oficial antes de agir.
 
@@ -38,5 +38,3 @@ Guardar exclusivamente no dossiê externo protegido. Data no formato AAAA-MM-DD,
 
 - [Emitir certidão de regularidade fiscal](https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal)
 - [Código Tributário Nacional, arts. 205 e 206](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm)
-
-**HIPÓTESE:** condições não cobertas pelas fontes permanecem a confirmar no canal competente. Não preencher lacunas com experiências de outro órgão ou exercício.

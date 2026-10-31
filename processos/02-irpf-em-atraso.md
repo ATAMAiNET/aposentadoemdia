@@ -1,6 +1,6 @@
 # IRPF em atraso
 
-Status: minuta operacional para revisão humana. Fontes consultadas em 30/10/2026.
+Minuta operacional. Fontes consultadas em 30/10/2026.
 
 > Documentos preenchidos ficam fora do Git. Caminhos de tela podem mudar; confirmar no canal oficial antes de agir.
 
@@ -43,5 +43,3 @@ Guardar exclusivamente no dossiê externo protegido. Data no formato AAAA-MM-DD,
 - [Multa por Atraso — página atualizada em 01/04/2026](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/multa)
 - [FAQ de multa — informação divergente de prazo](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/imposto-de-renda/dirpf/declaracao/multa)
 - [Pagamento em DARF](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/darf)
-
-**HIPÓTESE:** condições não cobertas pelas fontes permanecem a confirmar no canal competente. Não preencher lacunas com experiências de outro órgão ou exercício.

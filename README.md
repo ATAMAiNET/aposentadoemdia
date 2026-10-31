@@ -25,4 +25,4 @@ O serviço privado não representa órgão público. Não reutilizar documentos 
 
 ## Alterações
 
-`branch → PR → revisão humana → merge pelo responsável`. A primeira entrega usa `estrutura-inicial`, derivada da `main`. Commit e push dependem de aprovação expressa. O `.gitignore` é proteção auxiliar: não impede inclusão forçada nem protege dados escritos em Markdown.
+`branch → PR → revisão humana → merge pelo responsável`. Commit e push dependem de aprovação expressa. O `.gitignore` é proteção auxiliar: não impede inclusão forçada nem protege dados escritos em Markdown.

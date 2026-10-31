@@ -1,6 +1,6 @@
 # Prova de vida: SouGov e INSS
 
-Status: minuta operacional para revisão humana. Fontes consultadas em 30/10/2026.
+Minuta operacional. Fontes consultadas em 30/10/2026.
 
 > Documentos preenchidos ficam fora do Git. Caminhos de tela podem mudar; confirmar no canal oficial antes de agir.
 
@@ -40,5 +40,3 @@ Guardar exclusivamente no dossiê externo protegido. Data no formato AAAA-MM-DD,
 - [Prova de vida pelo SouGov](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/sou-gov.br/prova-de-vida/realizar-SOUGOV.BR)
 - [Processo de prova de vida federal](https://www.gov.br/servidor/pt-br/acesso-a-informacao/servidor/recadastramento)
 - [Prova de vida INSS — perguntas e respostas](https://www.gov.br/inss/pt-br/assuntos/prova-de-vida-confira-as-perguntas-respostas-sobre-o-procedimento)
-
-**HIPÓTESE:** condições não cobertas pelas fontes permanecem a confirmar no canal competente. Não preencher lacunas com experiências de outro órgão ou exercício.

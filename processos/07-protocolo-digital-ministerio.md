@@ -1,6 +1,6 @@
 # Protocolo digital em ministério
 
-Status: minuta operacional para revisão humana. Fontes consultadas em 30/10/2026.
+Minuta operacional. Fontes consultadas em 30/10/2026.
 
 > Documentos preenchidos ficam fora do Git. Caminhos de tela podem mudar; confirmar no canal oficial antes de agir.
 
@@ -39,5 +39,3 @@ Guardar exclusivamente no dossiê externo protegido. Data no formato AAAA-MM-DD,
 ## Fontes e revisão
 
 - [Protocolo digital — exemplo público do Ministério da Saúde](https://www.gov.br/pt-br/servicos/protocolar-documento-junto-ao-ministerio-da-saude)
-
-**HIPÓTESE:** condições não cobertas pelas fontes permanecem a confirmar no canal competente. Não preencher lacunas com experiências de outro órgão ou exercício.
