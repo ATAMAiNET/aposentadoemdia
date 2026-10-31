@@ -1,0 +1,31 @@
+# Documentos e imagens — inclusive extensões em maiúsculas
+*.[pP][dD][fF]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+*.[hH][eE][iI][cC]
+*.[dD][oO][cC][xX]
+*.[xX][lL][sS][xX]
+
+# Pastas proibidas em qualquer nível
+clientes/
+dados/
+anexos/
+
+# Segredos e ambiente local
+.env
+.env.*
+*.pem
+*.key
+
+# Temporários e arquivos locais
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+__pycache__/
