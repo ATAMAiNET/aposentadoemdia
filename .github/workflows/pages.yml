@@ -19,19 +19,34 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Gerar configuração do recebimento privado
+      - name: Configurar demonstração ou coleta
         env:
           LEAD_ENDPOINT: ${{ vars.LEAD_ENDPOINT }}
+          COLLECTION_ENABLED: ${{ vars.COLLECTION_ENABLED }}
         run: |
           python3 - <<'PYCONFIG'
           import json, os
           from pathlib import Path
           from urllib.parse import urlparse
-          endpoint = os.environ.get('LEAD_ENDPOINT', '')
-          parsed = urlparse(endpoint)
-          if parsed.scheme != 'https' or not parsed.netloc or parsed.username or parsed.password:
-              raise SystemExit('Configure LEAD_ENDPOINT após validar armazenamento e privacidade. Coleta não habilitada.')
-          Path('site/config.js').write_text('window.AED_CONFIG = Object.freeze(' + json.dumps({'leadEndpoint': endpoint, 'collectionEnabled': True}) + ');\n', encoding='utf-8')
+
+          flag = os.environ.get('COLLECTION_ENABLED', '').strip().lower()
+          if flag not in ('', 'false', 'true'):
+              raise SystemExit('COLLECTION_ENABLED deve ser true ou false.')
+
+          enabled = flag == 'true'
+          endpoint = ''
+
+          if enabled:
+              endpoint = os.environ.get('LEAD_ENDPOINT', '').strip()
+              parsed = urlparse(endpoint)
+              if parsed.scheme != 'https' or not parsed.hostname or parsed.username or parsed.password:
+                  raise SystemExit('Coleta exige LEAD_ENDPOINT HTTPS válido.')
+
+          config = {'leadEndpoint': endpoint, 'collectionEnabled': enabled}
+          Path('site/config.js').write_text(
+              'window.AED_CONFIG = Object.freeze(' + json.dumps(config) + ');\n',
+              encoding='utf-8'
+          )
           PYCONFIG
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

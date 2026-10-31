@@ -22,11 +22,11 @@ As respostas ficam apenas em memória até o envio. Fechar o assistente apaga os
 
 **FATO:** a versão preparada não tem servidor conectado; apresenta aviso de demonstração e não afirma registrar leads. GitHub Pages hospeda a interface, não o armazenamento das respostas.
 
-**PRÁTICA proposta:** usar Make como receptor e armazenamento privado, sujeito à escolha do responsável. Não criar conta nem ativar cenário antes dessa definição. Não incluir credencial no navegador. Qualquer endpoint público de recebimento fica visível ao visitante, mesmo quando não versionado; não usar sua URL como única proteção.
+**DECISÃO DO RESPONSÁVEL:** guardar as respostas em uma planilha privada na pasta Prospecção do Google Drive, separada de Clientes. A integração de recebimento ainda será implementada e testada. Não incluir credencial no navegador. Qualquer endpoint público de recebimento fica visível ao visitante, mesmo quando não versionado; não usar sua URL como única proteção.
 
 Contrato mínimo esperado da integração: POST HTTPS com JSON, validação de campos por lista permitida, limite de tamanho, proteção contra abuso, telefone validado apenas quando autorizado, identificação estável do envio para evitar duplicações em tentativas, persistência privada e resposta JSON `{ok: true, requestId: ...}` somente após confirmar gravação. Rejeitar campos inesperados e não devolver registros ou telefones publicamente. CORS deve permitir a origem da página; credenciais administrativas ficam no servidor.
 
-Antes de habilitar: definir acesso do responsável, finalidade, retenção, eliminação e canal de direitos; substituir o aviso de demonstração na política pelo aviso real. Não ativar coleta só por ter uma URL. O workflow aguarda `LEAD_ENDPOINT`; sua configuração é etapa posterior à revisão jurídica/operacional mínima. Há time-out de envio; falha não é apresentada como sucesso e exige confirmação do servidor.
+Antes de habilitar: definir acesso do responsável, finalidade, retenção, eliminação e canal de direitos; substituir o aviso de demonstração na política pelo aviso real. Não ativar coleta só por ter uma URL. O workflow permite publicar a demonstração sem integração. A coleta permanece desativada até haver integração testada, aviso de privacidade atualizado e ativação explícita por `COLLECTION_ENABLED=true`. Há time-out de envio; falha não é apresentada como sucesso e exige confirmação do servidor.
 
 ## Publicação
 
@@ -41,4 +41,4 @@ Manter fora do Git as contagens de manifestações recebidas, categorias, moment
 ## Fontes
 
 - [GitHub Pages — introdução](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), consultado em 31/10/2026.
-- Integração Make e armazenamento: **a confirmar antes da implantação**.
+- Integração com a planilha privada do Google Drive: **pendente de implementação e teste**.
