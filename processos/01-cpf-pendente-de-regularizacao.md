@@ -1,6 +1,6 @@
 # CPF pendente de regularização
 
-Status: minuta operacional para revisão humana. Fontes consultadas em 30/10/2026.
+Minuta operacional. Fontes consultadas em 30/10/2026.
 
 > Documentos preenchidos ficam fora do Git. Caminhos de tela podem mudar; confirmar no canal oficial antes de agir.
 
@@ -38,5 +38,3 @@ Guardar exclusivamente no dossiê externo protegido. Data no formato AAAA-MM-DD,
 
 - [Meu CPF](https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf)
 - [Consultar dívidas e pendências fiscais](https://www.gov.br/pt-br/servicos/consultar-dividas-e-pendencias-fiscais)
-
-**HIPÓTESE:** condições não cobertas pelas fontes permanecem a confirmar no canal competente. Não preencher lacunas com experiências de outro órgão ou exercício.
